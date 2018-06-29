@@ -17,10 +17,6 @@ Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
 
-Artisan::command('inspire2', function () {
-    $this->comment(Inspiring::quote());
-})->describe('Display an inspiring quote');
-
-Artisan::command('inspire3', function () {
+Artisan::command('HelloWorld', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
